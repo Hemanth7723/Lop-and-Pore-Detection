@@ -56,19 +56,8 @@ A suggested/typical structure — adjust to match actual files in this repo:
   - processed/          # resized / normalized images used for training
   - splits/             # train/val/test lists or folders
 - notebooks/            # exploratory notebooks (optional)
-- src/
-  - data_utils.py       # dataset loader, transforms
-  - augmentations.py    # augmentation pipelines (albumentations/torchvision)
-  - model.py            # model definitions (backbone + head)
-  - train.py            # training loop / scripts
-  - eval.py             # evaluation scripts & metrics
-  - utils.py            # helpers (logging, seed setting)
-- models/
-  - checkpoints/        # saved checkpoints during training
-  - final/              # final exported model(s)
 - app/
   - streamlit_app.py    # Streamlit front-end for custom image testing
-  - requirements-streamlit.txt
 - requirements.txt
 - README.md
 
